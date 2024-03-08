@@ -34,7 +34,7 @@ int main(){
        v3[i]=bs;
     }
     for(int i=0;i<m;i++){
-        cout<<v3[i]<<" 4";
+        cout<<v3[i]<<" ";
     }
  return 0;
 }
