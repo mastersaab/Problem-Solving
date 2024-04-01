@@ -1,4 +1,6 @@
 int diameter(TreeNode* root,int& maxi){
+
+    
         if(!root) return 0;
         int left=diameter(root->left,maxi);
         int right=diameter(root->right,maxi);
