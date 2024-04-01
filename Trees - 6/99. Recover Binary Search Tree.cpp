@@ -25,7 +25,7 @@ class Solution {
 public:
     void recoverTree(TreeNode* root) {
        inorder(root);
-       sort(v.begin(), v.end(),);
+       sort(v.begin(), v.end());
        check(root);
 
     }
